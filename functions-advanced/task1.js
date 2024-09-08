@@ -15,11 +15,11 @@ function handleNum(numEvenCb, numOddCb, num) {
   }
 }
 
-function handleEven(num) {
+function handleEven() {
   console.log("number is even");
 }
 
-function handleOdd(num) {
+function handleOdd() {
   console.log("number is odd");
 }
 
