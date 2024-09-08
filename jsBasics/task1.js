@@ -1,4 +1,4 @@
-let name = 'Olha';
+let name = "Olha";
 let age = 42;
 let isAdult = true;
 let work = null;

@@ -8,7 +8,6 @@
 Викличте функцію divide з різними значеннями numerator і denominator, включаючи випадок, коли denominator дорівнює 0 або один з аргументів не є числом.
 Огорніть кожен окремий виклик функції divide в try…catch.Використовуючи блок finally, виведіть повідомлення "Робота завершена" в консоль, навіть якщо помилка виникла або не виникла.*/
 
-
 function divide(numerator, denominator) {
   if (typeof numerator !== "number" || typeof denominator !== "number") {
     throw new Error("Обидва аргументи мають бути числами");

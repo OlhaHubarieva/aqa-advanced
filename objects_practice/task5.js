@@ -11,12 +11,12 @@ const users = [
 
 for (const user of users) {
   console.log(
-    `User ${user.name} is ${user.age} years old and has ${user.email} email address`
+    `User ${user.name} is ${user.age} years old and has ${user.email} email address`,
   );
 }
 
 for (const { name, email, age } of users) {
   console.log(
-    `User ${name} is ${age} years old and has ${email} email address`
+    `User ${name} is ${age} years old and has ${email} email address`,
   );
 }

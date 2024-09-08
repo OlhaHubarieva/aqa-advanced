@@ -11,18 +11,18 @@
 Якщо середня оцінка від 91 до 100 (включно), вивести "Відмінно".*/
 
 let averageGrade = 84;
-let grade
-if (averageGrade >=0 && averageGrade < 60) {
-grade = 'Незадовільно'
-} else if (averageGrade >=60 && averageGrade <= 70) {
-    grade = 'Задовільно'
-} else if (averageGrade >71 && averageGrade <= 80) {
-    grade = 'Добре'
-} else if (averageGrade >81 && averageGrade <= 90) {
-    grade = 'Дуже добре'
-} else if (averageGrade >91 && averageGrade <= 100) {
-    grade = 'Відмінно'
+let grade;
+if (averageGrade >= 0 && averageGrade < 60) {
+  grade = "Незадовільно";
+} else if (averageGrade >= 60 && averageGrade <= 70) {
+  grade = "Задовільно";
+} else if (averageGrade > 71 && averageGrade <= 80) {
+  grade = "Добре";
+} else if (averageGrade > 81 && averageGrade <= 90) {
+  grade = "Дуже добре";
+} else if (averageGrade > 91 && averageGrade <= 100) {
+  grade = "Відмінно";
 } else {
-    grade = 'Ви ввели невірне значення'
+  grade = "Ви ввели невірне значення";
 }
 console.log(grade);

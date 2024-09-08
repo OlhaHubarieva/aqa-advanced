@@ -5,7 +5,7 @@
 async function fetchTodo() {
   try {
     const response = await fetch(
-      "https://jsonplaceholder.typicode.com/todos/1"
+      "https://jsonplaceholder.typicode.com/todos/1",
     );
     if (!response.ok) {
       throw new Error("Request failed");
@@ -21,7 +21,7 @@ async function fetchTodo() {
 async function fetchUser() {
   try {
     const response = await fetch(
-      "https://jsonplaceholder.typicode.com/users/1"
+      "https://jsonplaceholder.typicode.com/users/1",
     );
     if (!response.ok) {
       throw new Error("Request failed");

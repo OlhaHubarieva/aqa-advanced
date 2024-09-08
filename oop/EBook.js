@@ -13,7 +13,7 @@ export class EBook extends Book {
   }
   printInfo() {
     console.log(
-      `${this.title}, ${this.author}, ${this.year}, ${this._file_type}`
+      `${this.title}, ${this.author}, ${this.year}, ${this._file_type}`,
     );
   }
 
