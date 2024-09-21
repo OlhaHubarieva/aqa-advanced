@@ -91,4 +91,3 @@ describe("Test suite1", () => {
     console.log(response.data);
     expect(response.status).toEqual(201);
   });
-});
